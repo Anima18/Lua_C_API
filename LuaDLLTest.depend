@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1500823618 source:e:\code\c_workspace\luadlltest\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stackAction.h"
+
+1482385880 e:\code\c_workspace\luadlltest\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1498458942 e:\code\c_workspace\luadlltest\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1484205266 e:\code\c_workspace\luadlltest\lualib.h
+	"lua.h"
+
+1481000070 e:\code\c_workspace\luadlltest\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1500823603 source:e:\code\c_workspace\luadlltest\stackaction.c
+	<stdio.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"stackAction.h"
+
+1500823604 e:\code\c_workspace\luadlltest\stackaction.h
+	"lua.h"
+
+1500823444 source:e:\code\c_workspace\luadlltest\stackactiontest.c
+	<stdio.h>
+	<stdlib.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"stackAction.h"
+
