@@ -6,9 +6,10 @@
 
 int main()
 {
-    //stackActiontest();
-    cluaTest();
+    stackActiontest();
+    //cluaTest();
     //stackDump();
+    return 0;
 }
 
 

@@ -5,6 +5,7 @@
 #include "stackAction.h"
 
 #define MAX_COLOR 255
+#define LUA_DEMO1_FILE "src/lua/Demo1.lua"
 
 extern int getField(lua_State *L, const char *key);
 extern void setField(lua_State *L, const char *key, int value);
@@ -119,15 +120,15 @@ void loadFileTest() {
     int w = 0;
     int h = 0;
     lua_State *L = luaL_newstate();
-    loadLuaFile(L, "lua/Demo1.lua", &w, &h);
+    loadLuaFile(L, LUA_DEMO1_FILE, &w, &h);
     printf("width:%d, height:%d", w, h);
     lua_close(L);
 }
 
 void tableActionTest() {
     lua_State *L = luaL_newstate();
-    getTableValue(L, "lua/Demo1.lua");
-    setTableValue(L, "lua/Demo1.lua", 100, 200, 50);
+    getTableValue(L, LUA_DEMO1_FILE);
+    setTableValue(L, LUA_DEMO1_FILE, 100, 200, 50);
 
     lua_getglobal(L, "background");
     if(!lua_istable(L, -1)) {
@@ -143,7 +144,7 @@ void tableActionTest() {
 
 void callFucTest() {
     lua_State *L = luaL_newstate();
-    callLuaFunc(L, "lua/Demo1.lua");
+    callLuaFunc(L, LUA_DEMO1_FILE);
     lua_close(L);
 }
 
