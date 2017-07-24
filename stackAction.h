@@ -1,4 +1,4 @@
-#include "lua.h"
+#include "include/lua.h"
 
 #ifndef STACKACTION_H_INCLUDED
 #define STACKACTION_H_INCLUDED

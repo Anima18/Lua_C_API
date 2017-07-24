@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "lua.h"
-#include "lualib.h"
-#include "lauxlib.h"
+#include "include/lua.h"
+#include "include/lualib.h"
+#include "include/lauxlib.h"
 #include "stackAction.h"
 
 void stackDump(lua_State *L) {
@@ -60,5 +60,4 @@ void stackActiontest() {
     stackDump(L);
 
     lua_close(L);
-    return 0;
 }
