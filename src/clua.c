@@ -96,6 +96,7 @@ void setField(lua_State *L, const char *key, int value) {
 }
 
 void callLuaFunc(lua_State *L, const char*fname) {
+    luaL_openlibs(L);
     if(luaL_loadfile(L, fname) || lua_pcall(L, 0, 0, 0)) {
         printf("cannot run file:%s", lua_tostring(L, -1));
     }else {

@@ -1,5 +1,3 @@
-#include "include/lua.h"
-
 #ifndef CLUA_H_INCLUDED
 #define CLUA_H_INCLUDED
 

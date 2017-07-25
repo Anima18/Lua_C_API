@@ -105,7 +105,7 @@
 	<stdio.h>
 	"lua.h"
 
-1500866378 source:e:\code\c_workspace\lua_c_api\src\clua.c
+1500950980 source:e:\code\c_workspace\lua_c_api\src\clua.c
 	<stdio.h>
 	"include/lua.h"
 	"include/lualib.h"
@@ -131,8 +131,7 @@
 	<stdio.h>
 	"lua.h"
 
-1500866390 e:\code\c_workspace\lua_c_api\src\stackaction.h
-	"include/lua.h"
+1500877495 e:\code\c_workspace\lua_c_api\src\stackaction.h
 
 1500866418 source:e:\code\c_workspace\lua_c_api\src\stackaction.c
 	<stdio.h>
@@ -141,12 +140,51 @@
 	"include/lauxlib.h"
 	"stackAction.h"
 
-1500877236 source:e:\code\c_workspace\lua_c_api\src\main.c
+1500964484 source:e:\code\c_workspace\lua_c_api\src\main.c
 	<stdio.h>
 	<stdlib.h>
+	"include/lua.h"
+	"include/lualib.h"
+	"include/lauxlib.h"
 	"stackAction.h"
 	"clua.h"
+	"luac.h"
 
-1500866382 e:\code\c_workspace\lua_c_api\src\clua.h
+1500877495 e:\code\c_workspace\lua_c_api\src\clua.h
+
+1500877892 e:\code\c_workspace\lua_c_api\src\luac.h
+
+1500878571 source:e:\code\c_workspace\lua_c_api\src\luac.c
+	<stdio.h>
+	<string.h>
 	"include/lua.h"
+	"include/lualib.h"
+	"include/lauxlib.h"
+
+1500965251 source:e:\code\c_workspace\lua_c_api\src\mytestlib.c
+	"mytestlib.h"
+
+1500965507 e:\code\c_workspace\lua_c_api\src\mytestlib.h
+	"include/lua.h"
+	"include/lualib.h"
+	"include/lauxlib.h"
+
+1482385880 e:\code\c_workspace\lua_c_api\src\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1498458942 e:\code\c_workspace\lua_c_api\src\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1484205266 e:\code\c_workspace\lua_c_api\src\lualib.h
+	"lua.h"
+
+1481000070 e:\code\c_workspace\lua_c_api\src\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
 

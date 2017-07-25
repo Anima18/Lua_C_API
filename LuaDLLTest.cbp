@@ -33,18 +33,26 @@
 		</Compiler>
 		<Linker>
 			<Add library="bin/Debug/liblua53.a" />
+			<Add library="bin/Debug/mytestlib.lib" />
 		</Linker>
-		<Unit filename="clua.c">
+		<Unit filename="src/clua.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="clua.h" />
-		<Unit filename="main.c">
+		<Unit filename="src/clua.h" />
+		<Unit filename="src/luac.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="stackAction.c">
+		<Unit filename="src/luac.h" />
+		<Unit filename="src/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="stackAction.h" />
+		<Unit filename="src/mytestlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/stackAction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/stackAction.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
